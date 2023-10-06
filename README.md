@@ -121,7 +121,7 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
             <link rel="stylesheet" href="style_eksternal.css" type="text/css">
         </head>
   
-![Screenshot (344)](https://github.com/roswanda11/lab2web/assets/115516632/7f1fb22e-b562-4edc-aef1-382494919efc)
+![Screenshot (353)](https://github.com/roswanda11/lab2web/assets/115516632/98587bfe-9bfc-4955-80e4-e8b12295b195)
 
 - CSS ekternal adalah CSS yang file di tempatkan di luar file HTML dengan menambahkan link dalam HTML agar tertaut dengan file CSS
 
@@ -163,8 +163,20 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
                 background: #099249;
             }
           
-  ![Screenshot (350)](https://github.com/roswanda11/lab2web/assets/115516632/8ed11abe-eeaf-4dff-a2d1-a73451d49538)
+![Screenshot (351)](https://github.com/roswanda11/lab2web/assets/115516632/b4741c25-cfe9-43ca-9efa-35e622d3a9b3)
 
 - CSS Selector terdiri atas selector ID, Selector Class, Dan Selector elemen Selector ID pendeklarasiannya yaitu dengan (#), Sedangkan Class pendeklarasiannya yaitu dengan (.), Dan Selector elemen pendeklarasiannya dengan elemen HTML sebagai contoh (p) yang akan di beri gaya pada CSS.
           
+# Pertanyaan dan Tugas
+
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+
+
+
+
+
+
+
+
+
 
