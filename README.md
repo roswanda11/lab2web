@@ -86,6 +86,8 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
           <p style="text-align: center; color: cc8e4;>
 
+- Maka hasilnya sebagai berikut
+
 ![Screenshot (340)](https://github.com/roswanda11/lab2web/assets/115516632/733d05a3-a249-4979-b62f-ff6f716504a3)
 
 - CSS inline adalah css yang pendeklarasiannya di dalam elemen HTML dengan code style inline memiliki prioritas lebih kuat di banding internal dan external.
@@ -120,6 +122,8 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
             <!--menyisipkan css eksternal-->
             <link rel="stylesheet" href="style_eksternal.css" type="text/css">
         </head>
+
+- Maka hasilnya sebagai berikut
   
 ![Screenshot (353)](https://github.com/roswanda11/lab2web/assets/115516632/98587bfe-9bfc-4955-80e4-e8b12295b195)
 
@@ -162,6 +166,8 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
                 animation-duration: 10ms;
                 background: #099249;
             }
+
+- Maka hasilnya sebagai berikut
           
 ![Screenshot (351)](https://github.com/roswanda11/lab2web/assets/115516632/b4741c25-cfe9-43ca-9efa-35e622d3a9b3)
 
@@ -171,7 +177,12 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 
+2. Apa perbedaan pendeklarasian CSS elemen ```h1 {...}``` dengan ```#intro h1 {...}```? berikan penjelasannya!
+   
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?
+Berikan penjelasan dan contohnya! ```( <p id="paragraf-1" class="text-paragraf"> )```
 
 
 
