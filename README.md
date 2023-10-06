@@ -178,8 +178,28 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 
 2. Apa perbedaan pendeklarasian CSS elemen ```h1 {...}``` dengan ```#intro h1 {...}```? berikan penjelasannya!
+ 
+- ```h1 {...}``` : Deklarasi ini akan merubah semua elemen "h1"
+
+- ```#intro h1 {...}``` : Deklarasi ini lebih spesifik, maksud nya adalah pendeklarasian yang mengacu kepada pemberian atribut pada elemen "h1" dengan menambahkan id "intro"
    
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+
+Ketika kita mendeklarasikan secara bersamaan antara ```INTERNAL EKSTERNAL``` dan ```INLINE``` yang akan ditampilkan pada Browser adalah ```INLINE``` Karena ```INLINE``` Memiliki prioritas dibanding ```EKSTERNAL``` atau pun ```INTERNAL``` seperti contoh yang saya buat, saya membuat dokumen baru HTML kemudian saya buat Elemen ```{h1}```yang kemudian saya akan deklarasikan di CSS ```INTERNAL EKSTERNAL``` dan juga ```INLINE``` Dengan property ```{color}``` dengan warna yang berbeda,jika ```INTERNAL``` {color: red} sementara ```EKSTERNAL``` {color:green;} dan ```INLINE``` {color: pink;} yang terpanggil dibrowser adalah ```INLINE``` karena memiliki prioritas.
+
+### contoh hasil dan code
+
+![Screenshot (354)](https://github.com/roswanda11/lab2web/assets/115516632/fd316644-c4ff-4c5e-95ec-bf6dbdd476e0)
+
+
+- DI ATAS ADALAH DEKLARASI INLINE DAN INTERNAL SEMENTARA FOTO DIBAWAH ADALAH DEKLARASI EKSTERNAL NYA
+  
+![Screenshot (355)](https://github.com/roswanda11/lab2web/assets/115516632/694b34f7-d47f-448f-a483-689a248a037a)
+
+
+
+
+
 
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?
 Berikan penjelasan dan contohnya! ```( <p id="paragraf-1" class="text-paragraf"> )```
