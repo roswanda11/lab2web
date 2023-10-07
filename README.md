@@ -151,39 +151,39 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
 - Selanjutnya menambahkan CSS Selector menggunkan ID dan class Selector pada file style_eksternal.css dan menambahkan kode seperti berikut
 
-            /* Menambahkan ID Selector */
-            #intro {
-                background: #d9f1fc;
-                border: 1px solid #099249;
-                min-height: 100px;
-                padding: 10px;
-            }
-            #intro h1 {
-                text-align: left;
-                border: 0;
-                color:#0d6e46;
-            }
-            
-            /* Menambahkan Class Selector */
-            .button {
-                padding: 15px 20px;
-                background: #bebcbd;
-                color: #fff;
-                display: inline-block;
-                margin: 10px;
-                text-decoration: none;
-            }
-            button .active
-            button:hover{
-                background: #fff;
-            }
-            .btn-primary {
-                background: #e91e4a;
-            }
-            .btn-primary:hover{
-                animation-duration: 10ms;
-                background: #099249;
-            }
+      /* Menambahkan ID Selector */
+      #intro {
+          background: #d9f1fc;
+          border: 1px solid #099249;
+          min-height: 100px;
+          padding: 10px;
+      }
+      #intro h1 {
+          text-align: left;
+          border: 0;
+          color:#0d6e46;
+      }
+      
+      /* Menambahkan Class Selector */
+      .button {
+          padding: 15px 20px;
+          background: #bebcbd;
+          color: #fff;
+          display: inline-block;
+          margin: 10px;
+          text-decoration: none;
+      }
+      button .active
+      button:hover{
+          background: #fff;
+      }
+      .btn-primary {
+          background: #e91e4a;
+      }
+      .btn-primary:hover{
+          animation-duration: 10ms;
+          background: #099249;
+      }
 
 - Maka hasilnya sebagai berikut
           
