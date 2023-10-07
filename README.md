@@ -65,26 +65,26 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
 - Kemudian tambahkan deklarasi CSS Internal di dalam html seperti berikut pada bagian head
 
-                <head> 
-                        <style>
-                            body {
-                                 font-family: 'Open Sans', sans-serif;
-                                 }
-                            header {
-                                 min-height: 80px;
-                                 border-bottom: 1px solid #77ccef;
-                                 }
-                            h1 {
-                                 font-size: 24px;
-                                 color: slateblue;
-                                 text-align: center;
-                                 padding: 20px 10px;
-                            }
-                            h1 i {
-                                 color:blueviolet;
-                                 }
-                        </style>
-                    </head>
+      <head> 
+          <style>
+              body {
+                   font-family: 'Open Sans', sans-serif;
+                   }
+              header {
+                   min-height: 80px;
+                   border-bottom: 1px solid #77ccef;
+                   }
+              h1 {
+                   font-size: 24px;
+                   color: slateblue;
+                   text-align: center;
+                   padding: 20px 10px;
+              }
+              h1 i {
+                   color:blueviolet;
+                   }
+          </style>
+      </head>
 
 - Maka hasilnya akan seperti berikut
   
@@ -117,20 +117,20 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
 - Membuat CSS Eksternal dengan membuat file baru dengan nama style_eksternal.css kemudian buat deklarasi css seperti berikut ini.
 
-            nav{
-                background: #ff595e;
-                color: white;
-                padding: 15px;
-            }
-            nav a{
-                color: #fff;
-                text-decoration: none;
-                padding: 15px 20px;
-            }
-            nav .active,
-            nav a:hover{
-                background: black;
-            }
+      nav{
+          background: #ff595e;
+          color: white;
+          padding: 15px;
+      }
+      nav a{
+          color: #fff;
+          text-decoration: none;
+          padding: 15px 20px;
+      }
+      nav .active,
+      nav a:hover{
+          background: black;
+      }
 
 - Kemudian tambahkan <link untuk merujuk File CSS yang telah dibuat pada bagian Head
 
@@ -207,6 +207,11 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
 <b>JAWABAN</b>
 
+      <link rel="stylesheet" href="w.css">
+      
+      <h1 class="title">Roswanda Nuraini</h1>
+      <p class="text">Praktikum 2- CSS Dasar</p>
+
 ### contoh hasil dan code
 ![Screenshot (359)](https://github.com/roswanda11/lab2web/assets/115516632/0e8c9d33-b582-4303-b8d1-1767a67925e4)
 
@@ -243,7 +248,7 @@ Berikan penjelasan dan contohnya!
 
 <b>JAWABAN</b>
 
-```( <p id="paragraf-1" class="text-paragraf"> )```
+      ( <p id="paragraf-1" class="text-paragraf"> )
 
 - Yang terpanggil dibrowser adalah <b>ID</b> karena <b>ID</b> bersifat unik berbeda dengan <b>Class</b> .<b>Class</b> bisa digunakan banyak sementara <b>ID</b> hanya tertentu saja itu kenapa <b>ID</b> unik dan yang terpanggil di browser adalah <b>ID</b> .
 
