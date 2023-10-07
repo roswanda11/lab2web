@@ -226,7 +226,7 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
 <b>JAWABAN</b>
 
-- Ketika kita mendeklarasikan secara bersamaan antara ```INTERNAL EKSTERNAL``` dan ```INLINE``` yang akan ditampilkan pada Browser adalah ```INLINE``` Karena ```INLINE``` Memiliki prioritas dibanding ```EKSTERNAL``` atau pun ```INTERNAL``` seperti contoh yang saya buat, saya membuat dokumen baru HTML kemudian saya buat Elemen ```{h1}```yang kemudian saya akan deklarasikan di CSS ```INTERNAL EKSTERNAL``` dan juga ```INLINE``` Dengan property ```{color}``` dengan warna yang berbeda,jika ```INTERNAL``` {color: red} sementara ```EKSTERNAL``` {color:green;} dan ```INLINE``` {color: pink;} yang terpanggil dibrowser adalah ```INLINE``` karena memiliki prioritas.
+- Ketika kita mendeklarasikan secara bersamaan antara ```INTERNAL EKSTERNAL``` dan ```INLINE``` yang akan ditampilkan pada Browser adalah ```INLINE``` Karena ```INLINE``` Memiliki prioritas dibanding ```EKSTERNAL``` atau pun ```INTERNAL``` seperti contoh yang saya buat, saya membuat dokumen baru HTML kemudian saya buat Elemen ```{h1}```yang kemudian saya akan deklarasikan di CSS ```INTERNAL EKSTERNAL``` dan juga ```INLINE``` Dengan property ```{color}``` dengan warna yang berbeda,jika ```INTERNAL``` {color: red} sementara ```EKSTERNAL``` {color:blue;} dan ```INLINE``` {color: green;} yang terpanggil dibrowser adalah ```INLINE``` karena memiliki prioritas.
 
 ### contoh hasil dan code
 
