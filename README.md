@@ -149,7 +149,7 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
 ## Menambahkan CSS Selector
 
-- Selanjutnya menambahkan CSS Selector menggunkan ID dan class Selector pada file style_eksternal.css dan menambahkan kode seperti berikut
+- Selanjutnya menambahkan CSS Selector menggunakan ID dan class Selector pada file style_eksternal.css dan menambahkan kode seperti berikut
 
       /* Menambahkan ID Selector */
       #intro {
