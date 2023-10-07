@@ -98,18 +98,18 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
 - Menambahkan Inline CSS Kemudian tambahkan deklarasi inline CSS pada tag
 
-          <p style="text-align: center; color: cc8e4;>
+      <p style="text-align: center; color: cc8e4;>
 
 - Maka hasilnya sebagai berikut
 
 ![Screenshot (340)](https://github.com/roswanda11/lab2web/assets/115516632/733d05a3-a249-4979-b62f-ff6f716504a3)
 
 - CSS inline adalah css yang pendeklarasiannya di dalam elemen HTML dengan code style inline memiliki prioritas lebih kuat di banding internal dan external.
-  
-          <p style="text-align: center; color: palevioletred;">Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman
-                      Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
-                  adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
-                  dan CSS.</p>
+
+      <p style="text-align: center; color: palevioletred;">Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman
+                  Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
+              adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
+              dan CSS.</p>
 
 # Langkah 4
 
@@ -134,10 +134,10 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
 - Kemudian tambahkan <link untuk merujuk File CSS yang telah dibuat pada bagian Head
 
-        <head>
-            <!--menyisipkan css eksternal-->
-            <link rel="stylesheet" href="style_eksternal.css" type="text/css">
-        </head>
+      <head>
+           <!--menyisipkan css eksternal-->
+           <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+      </head>
 
 - Maka hasilnya sebagai berikut
   
@@ -226,7 +226,30 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 - ```h1 {...}``` : Deklarasi ini akan merubah semua elemen "h1"
 
 - ```#intro h1 {...}``` : Deklarasi ini lebih spesifik, maksud nya adalah pendeklarasian yang mengacu kepada pemberian atribut pada elemen "h1" dengan menambahkan id "intro"
-   
+
+      <div id="intro">
+          <h1 class="title">rossieeyy</h1>
+      </div>
+      <h1>ROSIE</h1>
+
+### contoh hasil dan code
+
+  ![Screenshot (366)](https://github.com/roswanda11/lab2web/assets/115516632/e5f4865e-b2b3-449b-bf5a-bb7d90a9da84)
+
+  - Pada contoh ini, terdapat elemen ```<h1>``` yang berada di dalam elemen ```<div>``` dengan ```<b>ID "Intro"</b>``` dan juga elemen ```<h1>``` yang berdiri sendiri tanpa ada elemen lain di dalamnya.
+ 
+        h1{
+            color:darkred;
+        }
+        
+        #intro h1{
+            color:darkgoldenrod;
+        }
+
+![Screenshot (367)](https://github.com/roswanda11/lab2web/assets/115516632/8990ccac-bd32-4f1c-b1b9-a8cdfcf58b0c)
+
+- Dalam file CSS (introstyle.css), terdapat aturan CSS yang di deklarasikan untuk selector "h1" dan "#intro h1". Aturan CSS ```h1``` {...} akan berlaku untuk semua elemen ```<h1>``` yang berada di dalam elemen ```<h1>``` yang berada di dalam elemen dengan <b>ID "Intro"</b>. Perbedaan ini menyebabkan warna teks pada judul ```<h1>``` yang berada di dalam elemen dengan <b>ID "Intro"</b> menjadi darkgoldenrod, sedangkan warna teks pada judul ```<h1>``` yang berdiri sendiri tetap darkred.
+
 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
 <b>JAWABAN</b>
@@ -257,5 +280,3 @@ Berikan penjelasan dan contohnya!
 ![Screenshot (357)](https://github.com/roswanda11/lab2web/assets/115516632/dcb23999-8e20-4ec2-9c1b-cc66ce892998)
 
 - Disitu saya menambahkan property {color} dan {text-align} untuk <b>ID {color: orchid}</b> dan {text-align: center} sementara <b>Class yaitu {color:palegreen}</b> dan <b>{text-align: left}</b>. Namun yang terpanggil di browser adalah <b>ID</b> yang property nya <b>{color: orchid}</b> dan juga <b>{text-align: center}</b>
-
-
