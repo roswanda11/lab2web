@@ -236,7 +236,7 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
 
   ![Screenshot (366)](https://github.com/roswanda11/lab2web/assets/115516632/e5f4865e-b2b3-449b-bf5a-bb7d90a9da84)
 
-  - Pada contoh ini, terdapat elemen ```<h1>``` yang berada di dalam elemen ```<div>``` dengan ```<b>ID "Intro"</b>``` dan juga elemen ```<h1>``` yang berdiri sendiri tanpa ada elemen lain di dalamnya.
+  - Pada contoh ini, terdapat elemen ```<h1>``` yang berada di dalam elemen ```<div>``` dengan <b>ID "Intro"</b> dan juga elemen ```<h1>``` yang berdiri sendiri tanpa ada elemen lain di dalamnya.
  
         h1{
             color:darkred;
