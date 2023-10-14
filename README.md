@@ -185,7 +185,7 @@ Disini sudah terdapat file Dokumen HTML yang belom terdapat file css nya
           background: #099249;
       }
 
-- Maka hasilnya sebagai berikut
+- Maka hasilnya sebagai berikut :
           
 ![Screenshot (351)](https://github.com/roswanda11/lab2web/assets/115516632/b4741c25-cfe9-43ca-9efa-35e622d3a9b3)
 
